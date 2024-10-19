@@ -18,7 +18,7 @@ import React, { useState } from "react";
 import useBlogStore from "../store/blog";
 
 const UpdateBlogModal = ({ isOpen, onClose, blog }) => {
-  const { blogs, updateBlog } = useBlogStore();
+  const { updateBlog } = useBlogStore();
   const [updatedBlog, setUpdatedBlog] = useState(blog);
   const toast = useToast();
 
@@ -51,7 +51,7 @@ const UpdateBlogModal = ({ isOpen, onClose, blog }) => {
   return (
     <Modal isOpen={isOpen} onClose={onClose} isCentered size={"xl"}>
       <ModalOverlay backdropFilter={"blur(5px)"} />
-      <ModalContent>
+      <ModalContent bg={"#1C2541"}>
         <ModalHeader>
           <Heading
             as={"h1"}

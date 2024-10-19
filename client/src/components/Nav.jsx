@@ -24,6 +24,7 @@ const Nav = () => {
               color={"#6FFFE9"}
               letterSpacing={2}
               boxShadow={"md"}
+              bg={"#1C2541"}
             >
               New Blog
             </Button>
