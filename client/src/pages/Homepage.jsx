@@ -26,7 +26,7 @@ const Homepage = () => {
         <span style={{ color: "#6FFFE9" }}>Blog</span>
       </Heading>
       <Box py={10}>
-        <SimpleGrid columns={{ base: 3, sm: 2, md: 3, lg: 4 }} spacing={"20px"}>
+        <SimpleGrid columns={{ base: 1, sm: 2, md: 3, lg: 4 }} spacing={"20px"}>
           {blogs.map((blog, index) => (
             <BlogCard key={index} blog={blog} />
           ))}
