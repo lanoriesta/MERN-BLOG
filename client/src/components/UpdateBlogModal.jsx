@@ -51,7 +51,7 @@ const UpdateBlogModal = ({ isOpen, onClose, blog }) => {
   return (
     <Modal isOpen={isOpen} onClose={onClose} isCentered size={"xl"}>
       <ModalOverlay backdropFilter={"blur(5px)"} />
-      <ModalContent bg={"#1C2541"}>
+      <ModalContent bg={"#1C2541"} color={"#000000"}>
         <ModalHeader>
           <Heading
             as={"h1"}
