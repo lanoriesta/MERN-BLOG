@@ -132,7 +132,7 @@ const Blogpage = () => {
             </Text>
           </Box>
           <HStack>
-            <Button bg={"#5BC0BE"} onClick={onOpen} w={"150px"}>
+            <Button bg={"#5BC0BE"} color={"white"} onClick={onOpen} w={"150px"}>
               Edit
             </Button>
             <Button
