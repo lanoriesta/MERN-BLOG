@@ -132,7 +132,15 @@ const Blogpage = () => {
             </Text>
           </Box>
           <HStack>
-            <Button bg={"#5BC0BE"} color={"white"} onClick={onOpen} w={"150px"}>
+            <Button
+              bg={"#5BC0BE"}
+              color={"white"}
+              onClick={onOpen}
+              w={"150px"}
+              _hover={{
+                bg: "#3A506B",
+              }}
+            >
               Edit
             </Button>
             <Button
@@ -140,6 +148,9 @@ const Blogpage = () => {
               color={"#FFFFFF"}
               onClick={() => hanldeDeleteBlog(blog[0]._id)}
               w={"150px"}
+              _hover={{
+                bg: "#3A506B",
+              }}
             >
               Delete
             </Button>

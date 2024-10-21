@@ -25,6 +25,9 @@ const Nav = () => {
               letterSpacing={2}
               boxShadow={"md"}
               bg={"#1C2541"}
+              _hover={{
+                bg: "#3A506B",
+              }}
             >
               New Blog
             </Button>

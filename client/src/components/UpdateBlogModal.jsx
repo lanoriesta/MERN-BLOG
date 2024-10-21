@@ -133,10 +133,21 @@ const UpdateBlogModal = ({ isOpen, onClose, blog }) => {
                     }}
                     boxShadow={"lg"}
                     bg={"#5BC0BE"}
+                    color={"#FFFFFF"}
+                    _hover={{
+                      bg: "#3A506B",
+                    }}
                   >
                     Update
                   </Button>
-                  <Button boxShadow={"lg"} onClick={onClose} variant={"ghost"}>
+                  <Button
+                    onClick={onClose}
+                    color={"#FFFFFF"}
+                    variant={"ghost"}
+                    _hover={{
+                      bg: "#3A506B",
+                    }}
+                  >
                     Cancel
                   </Button>
                 </HStack>
