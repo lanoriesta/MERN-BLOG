@@ -70,7 +70,7 @@ const Blogpage = () => {
   }, [fetchBlogs]);
 
   return (
-    <Container maxW={"1080px"} h={"full"}>
+    <Container maxW={"1080px"} h={"full"} color={"white"}>
       <Link to={"/"}>
         <ChevronLeftIcon ml={"-10px"} boxSize={5} fontWeight={"light"} /> back
       </Link>
@@ -137,6 +137,7 @@ const Blogpage = () => {
             </Button>
             <Button
               bg={"#1C2541"}
+              color={"white"}
               onClick={() => hanldeDeleteBlog(blog[0]._id)}
               w={"150px"}
             >
